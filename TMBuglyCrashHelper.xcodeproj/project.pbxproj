@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61838A8A1F5D337A000A06CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61838A891F5D337A000A06CF /* main.m */; };
+		61838A8D1F5D337B000A06CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61838A8C1F5D337B000A06CF /* AppDelegate.m */; };
+		61838A901F5D337B000A06CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61838A8F1F5D337B000A06CF /* ViewController.m */; };
+		61838A931F5D337B000A06CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61838A911F5D337B000A06CF /* Main.storyboard */; };
+		61838A951F5D337B000A06CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61838A941F5D337B000A06CF /* Assets.xcassets */; };
+		61838A981F5D337B000A06CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61838A961F5D337B000A06CF /* LaunchScreen.storyboard */; };
+		61838AA31F5D337B000A06CF /* TMBuglyCrashHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61838AA21F5D337B000A06CF /* TMBuglyCrashHelperTests.m */; };
+		61838AAE1F5D337B000A06CF /* TMBuglyCrashHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61838AAD1F5D337B000A06CF /* TMBuglyCrashHelperUITests.m */; };
+		EAEED3FEFC439289F1F1382A /* libPods-TMBuglyCrashHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BA61631DCBC6A0B2C03982 /* libPods-TMBuglyCrashHelper.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61838A9F1F5D337B000A06CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61838A7D1F5D337A000A06CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61838A841F5D337A000A06CF;
+			remoteInfo = TMBuglyCrashHelper;
+		};
+		61838AAA1F5D337B000A06CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61838A7D1F5D337A000A06CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61838A841F5D337A000A06CF;
+			remoteInfo = TMBuglyCrashHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AAF2A516F24C8CA34A196E8 /* Pods-TMBuglyCrashHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMBuglyCrashHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMBuglyCrashHelper/Pods-TMBuglyCrashHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		61838A851F5D337A000A06CF /* TMBuglyCrashHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMBuglyCrashHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61838A891F5D337A000A06CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61838A8B1F5D337A000A06CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61838A8C1F5D337B000A06CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61838A8E1F5D337B000A06CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61838A8F1F5D337B000A06CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61838A921F5D337B000A06CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61838A941F5D337B000A06CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61838A971F5D337B000A06CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61838A991F5D337B000A06CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61838A9E1F5D337B000A06CF /* TMBuglyCrashHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMBuglyCrashHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61838AA21F5D337B000A06CF /* TMBuglyCrashHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBuglyCrashHelperTests.m; sourceTree = "<group>"; };
+		61838AA41F5D337B000A06CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61838AA91F5D337B000A06CF /* TMBuglyCrashHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMBuglyCrashHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61838AAD1F5D337B000A06CF /* TMBuglyCrashHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBuglyCrashHelperUITests.m; sourceTree = "<group>"; };
+		61838AAF1F5D337B000A06CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61838ABB1F5D36B8000A06CF /* TMBuglyMainPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBuglyMainPrefix.pch; sourceTree = "<group>"; };
+		74700241DD56F4830D1C7A15 /* Pods-TMBuglyCrashHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMBuglyCrashHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMBuglyCrashHelper/Pods-TMBuglyCrashHelper.release.xcconfig"; sourceTree = "<group>"; };
+		D7BA61631DCBC6A0B2C03982 /* libPods-TMBuglyCrashHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMBuglyCrashHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61838A821F5D337A000A06CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEED3FEFC439289F1F1382A /* libPods-TMBuglyCrashHelper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61838A9B1F5D337B000A06CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61838AA61F5D337B000A06CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61838A7C1F5D337A000A06CF = {
+			isa = PBXGroup;
+			children = (
+				61838A871F5D337A000A06CF /* TMBuglyCrashHelper */,
+				61838AA11F5D337B000A06CF /* TMBuglyCrashHelperTests */,
+				61838AAC1F5D337B000A06CF /* TMBuglyCrashHelperUITests */,
+				61838A861F5D337A000A06CF /* Products */,
+				F0A6B572F3A65F4F3DBB2A02 /* Pods */,
+				74BAC6424BA5ACF26E1597A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61838A861F5D337A000A06CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61838A851F5D337A000A06CF /* TMBuglyCrashHelper.app */,
+				61838A9E1F5D337B000A06CF /* TMBuglyCrashHelperTests.xctest */,
+				61838AA91F5D337B000A06CF /* TMBuglyCrashHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61838A871F5D337A000A06CF /* TMBuglyCrashHelper */ = {
+			isa = PBXGroup;
+			children = (
+				61838ABB1F5D36B8000A06CF /* TMBuglyMainPrefix.pch */,
+				61838A8B1F5D337A000A06CF /* AppDelegate.h */,
+				61838A8C1F5D337B000A06CF /* AppDelegate.m */,
+				61838A8E1F5D337B000A06CF /* ViewController.h */,
+				61838A8F1F5D337B000A06CF /* ViewController.m */,
+				61838A911F5D337B000A06CF /* Main.storyboard */,
+				61838A941F5D337B000A06CF /* Assets.xcassets */,
+				61838A961F5D337B000A06CF /* LaunchScreen.storyboard */,
+				61838A991F5D337B000A06CF /* Info.plist */,
+				61838A881F5D337A000A06CF /* Supporting Files */,
+			);
+			path = TMBuglyCrashHelper;
+			sourceTree = "<group>";
+		};
+		61838A881F5D337A000A06CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61838A891F5D337A000A06CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61838AA11F5D337B000A06CF /* TMBuglyCrashHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				61838AA21F5D337B000A06CF /* TMBuglyCrashHelperTests.m */,
+				61838AA41F5D337B000A06CF /* Info.plist */,
+			);
+			path = TMBuglyCrashHelperTests;
+			sourceTree = "<group>";
+		};
+		61838AAC1F5D337B000A06CF /* TMBuglyCrashHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61838AAD1F5D337B000A06CF /* TMBuglyCrashHelperUITests.m */,
+				61838AAF1F5D337B000A06CF /* Info.plist */,
+			);
+			path = TMBuglyCrashHelperUITests;
+			sourceTree = "<group>";
+		};
+		74BAC6424BA5ACF26E1597A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA61631DCBC6A0B2C03982 /* libPods-TMBuglyCrashHelper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0A6B572F3A65F4F3DBB2A02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AAF2A516F24C8CA34A196E8 /* Pods-TMBuglyCrashHelper.debug.xcconfig */,
+				74700241DD56F4830D1C7A15 /* Pods-TMBuglyCrashHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61838A841F5D337A000A06CF /* TMBuglyCrashHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61838AB21F5D337B000A06CF /* Build configuration list for PBXNativeTarget "TMBuglyCrashHelper" */;
+			buildPhases = (
+				69CE3BBE00DA43528DCFA99B /* [CP] Check Pods Manifest.lock */,
+				61838A811F5D337A000A06CF /* Sources */,
+				61838A821F5D337A000A06CF /* Frameworks */,
+				61838A831F5D337A000A06CF /* Resources */,
+				E04D8F346F39A409C978903C /* [CP] Embed Pods Frameworks */,
+				6370088DEC3E10151054AB2B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMBuglyCrashHelper;
+			productName = TMBuglyCrashHelper;
+			productReference = 61838A851F5D337A000A06CF /* TMBuglyCrashHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61838A9D1F5D337B000A06CF /* TMBuglyCrashHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61838AB51F5D337B000A06CF /* Build configuration list for PBXNativeTarget "TMBuglyCrashHelperTests" */;
+			buildPhases = (
+				61838A9A1F5D337B000A06CF /* Sources */,
+				61838A9B1F5D337B000A06CF /* Frameworks */,
+				61838A9C1F5D337B000A06CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61838AA01F5D337B000A06CF /* PBXTargetDependency */,
+			);
+			name = TMBuglyCrashHelperTests;
+			productName = TMBuglyCrashHelperTests;
+			productReference = 61838A9E1F5D337B000A06CF /* TMBuglyCrashHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61838AA81F5D337B000A06CF /* TMBuglyCrashHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61838AB81F5D337B000A06CF /* Build configuration list for PBXNativeTarget "TMBuglyCrashHelperUITests" */;
+			buildPhases = (
+				61838AA51F5D337B000A06CF /* Sources */,
+				61838AA61F5D337B000A06CF /* Frameworks */,
+				61838AA71F5D337B000A06CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61838AAB1F5D337B000A06CF /* PBXTargetDependency */,
+			);
+			name = TMBuglyCrashHelperUITests;
+			productName = TMBuglyCrashHelperUITests;
+			productReference = 61838AA91F5D337B000A06CF /* TMBuglyCrashHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61838A7D1F5D337A000A06CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cocomanber;
+				TargetAttributes = {
+					61838A841F5D337A000A06CF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M69WLL7DNH;
+						ProvisioningStyle = Automatic;
+					};
+					61838A9D1F5D337B000A06CF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M69WLL7DNH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61838A841F5D337A000A06CF;
+					};
+					61838AA81F5D337B000A06CF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M69WLL7DNH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61838A841F5D337A000A06CF;
+					};
+				};
+			};
+			buildConfigurationList = 61838A801F5D337A000A06CF /* Build configuration list for PBXProject "TMBuglyCrashHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61838A7C1F5D337A000A06CF;
+			productRefGroup = 61838A861F5D337A000A06CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61838A841F5D337A000A06CF /* TMBuglyCrashHelper */,
+				61838A9D1F5D337B000A06CF /* TMBuglyCrashHelperTests */,
+				61838AA81F5D337B000A06CF /* TMBuglyCrashHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61838A831F5D337A000A06CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61838A981F5D337B000A06CF /* LaunchScreen.storyboard in Resources */,
+				61838A951F5D337B000A06CF /* Assets.xcassets in Resources */,
+				61838A931F5D337B000A06CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61838A9C1F5D337B000A06CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61838AA71F5D337B000A06CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6370088DEC3E10151054AB2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMBuglyCrashHelper/Pods-TMBuglyCrashHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69CE3BBE00DA43528DCFA99B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E04D8F346F39A409C978903C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMBuglyCrashHelper/Pods-TMBuglyCrashHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61838A811F5D337A000A06CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61838A901F5D337B000A06CF /* ViewController.m in Sources */,
+				61838A8D1F5D337B000A06CF /* AppDelegate.m in Sources */,
+				61838A8A1F5D337A000A06CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61838A9A1F5D337B000A06CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61838AA31F5D337B000A06CF /* TMBuglyCrashHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61838AA51F5D337B000A06CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61838AAE1F5D337B000A06CF /* TMBuglyCrashHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61838AA01F5D337B000A06CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61838A841F5D337A000A06CF /* TMBuglyCrashHelper */;
+			targetProxy = 61838A9F1F5D337B000A06CF /* PBXContainerItemProxy */;
+		};
+		61838AAB1F5D337B000A06CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61838A841F5D337A000A06CF /* TMBuglyCrashHelper */;
+			targetProxy = 61838AAA1F5D337B000A06CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61838A911F5D337B000A06CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61838A921F5D337B000A06CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61838A961F5D337B000A06CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61838A971F5D337B000A06CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61838AB01F5D337B000A06CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61838AB11F5D337B000A06CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61838AB31F5D337B000A06CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AAF2A516F24C8CA34A196E8 /* Pods-TMBuglyCrashHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M69WLL7DNH;
+				GCC_PREFIX_HEADER = /Users/cocomanber/Desktop/TMBuglyCrashHelper/TMBuglyCrashHelper/TMBuglyMainPrefix.pch;
+				INFOPLIST_FILE = TMBuglyCrashHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tanxiulong.TMNullableMaybeCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		61838AB41F5D337B000A06CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74700241DD56F4830D1C7A15 /* Pods-TMBuglyCrashHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M69WLL7DNH;
+				GCC_PREFIX_HEADER = /Users/cocomanber/Desktop/TMBuglyCrashHelper/TMBuglyCrashHelper/TMBuglyMainPrefix.pch;
+				INFOPLIST_FILE = TMBuglyCrashHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tanxiulong.TMNullableMaybeCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		61838AB61F5D337B000A06CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M69WLL7DNH;
+				INFOPLIST_FILE = TMBuglyCrashHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cocomanber.TMBuglyCrashHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMBuglyCrashHelper.app/TMBuglyCrashHelper";
+			};
+			name = Debug;
+		};
+		61838AB71F5D337B000A06CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M69WLL7DNH;
+				INFOPLIST_FILE = TMBuglyCrashHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cocomanber.TMBuglyCrashHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMBuglyCrashHelper.app/TMBuglyCrashHelper";
+			};
+			name = Release;
+		};
+		61838AB91F5D337B000A06CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M69WLL7DNH;
+				INFOPLIST_FILE = TMBuglyCrashHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cocomanber.TMBuglyCrashHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TMBuglyCrashHelper;
+			};
+			name = Debug;
+		};
+		61838ABA1F5D337B000A06CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M69WLL7DNH;
+				INFOPLIST_FILE = TMBuglyCrashHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cocomanber.TMBuglyCrashHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TMBuglyCrashHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61838A801F5D337A000A06CF /* Build configuration list for PBXProject "TMBuglyCrashHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61838AB01F5D337B000A06CF /* Debug */,
+				61838AB11F5D337B000A06CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61838AB21F5D337B000A06CF /* Build configuration list for PBXNativeTarget "TMBuglyCrashHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61838AB31F5D337B000A06CF /* Debug */,
+				61838AB41F5D337B000A06CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61838AB51F5D337B000A06CF /* Build configuration list for PBXNativeTarget "TMBuglyCrashHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61838AB61F5D337B000A06CF /* Debug */,
+				61838AB71F5D337B000A06CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61838AB81F5D337B000A06CF /* Build configuration list for PBXNativeTarget "TMBuglyCrashHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61838AB91F5D337B000A06CF /* Debug */,
+				61838ABA1F5D337B000A06CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61838A7D1F5D337A000A06CF /* Project object */;
+}

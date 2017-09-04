@@ -1,0 +1,19 @@
+//
+//  TMBuglyMainPrefix.pch
+//  TMBuglyCrashHelper
+//
+//  Created by cocomanber on 2017/9/4.
+//  Copyright © 2017年 cocomanber. All rights reserved.
+//
+
+#ifndef TMBuglyMainPrefix_pch
+#define TMBuglyMainPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Bugly/Bugly.h>
+
+
+
+#endif /* TMBuglyMainPrefix_pch */
